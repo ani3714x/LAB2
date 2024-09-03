@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    char c;
+    float a,b,result;
+    printf("enter +,-,*,or / : ");
+    scanf("%c",&c);
+    printf("enter two numbers for calculation :");
+    scanf("%f%f",&a,&b);
+    switch(c) {
+    case '+' :
+    result = a+b;
+    printf("Sum is %.2f",result);
+    break;
+    case '-' :
+    result = a-b;
+    printf("Difference is %.2f",result);
+    break;
+    case '*' :
+    result = a*b;
+    printf("Product is %.2f",result);
+    break;
+    case '/':
+    result = a/b;
+    printf("Quotient is %.2f",result);
+    break;
+    }
+    
+    
+
+    return 0;
+}
