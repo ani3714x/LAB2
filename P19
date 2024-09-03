@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+  char c;
+  printf("Enter The Character : ");
+  scanf("%c",&c);
+  c>=97&&c<=122?printf("%c is Small Letter",c):printf("%c is not small letter",c);
+  return 0;
+}
