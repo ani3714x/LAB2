@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+  int a,b,pow = 1;
+  printf("enter two nos");
+  scanf("%d%d",&a,&b);
+  while(b !=0)
+  {
+      pow = pow *a;
+      --b;
+  }
+  printf("power is %d",pow);
+    return 0;
+}
